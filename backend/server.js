@@ -6,21 +6,19 @@ require('dotenv').config();
 const path = require('path');
 const cors = require('cors');
 
+app.get('/', (req, res) => {
+  res.status(200).json({ status: 'UP' });
+});
+
 app.use(express.json());
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: '*',
   credentials: true
 }));
 
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/dashboard', dashboardRoutes);
-
-app.use(express.static(path.join(__dirname, 'frontend', 'dist')));
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'frontend', 'dist', 'index.html'));
-});
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
