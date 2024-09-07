@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../styles/forgotPassword.css";
+import "../styles/forgotpassword.css";
 import { requestPasswordReset } from "../api/auth/auth";
 
 const ForgotPassword = () => {
