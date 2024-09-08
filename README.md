@@ -6,8 +6,12 @@ AUTHsystem is a full-stack web application that provides a secure user authentic
 
 Check out the live demo of the application: [AUTHsystem Demo](https://authsystem-iota.vercel.app/)
 
+Watch the video demo on YouTube: [Click here](https://www.youtube.com/watch?v=eryfMBWO4fE)
 
-<iframe width="640" height="480" src="https://www.youtube.com/embed/eryfMBWO4fE" title="AUTHsystem demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Or click the image below to watch:
+
+[![Watch the demo](https://img.youtube.com/vi/eryfMBWO4fE/maxresdefault.jpg)](https://www.youtube.com/watch?v=eryfMBWO4fE)
+
 
 
 ## Features
