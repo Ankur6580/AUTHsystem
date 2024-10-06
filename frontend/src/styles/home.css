@@ -1,8 +1,7 @@
 .home-container {
+  max-width: 75ch;
   text-align: center;
   padding: 50px;
-  height: 100vh;
-  padding-top: 150px;
 }
 
 .home-heading {
